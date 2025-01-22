@@ -2,7 +2,7 @@
 
 ## Overview  
 
-**3D Monocular Depth estimation** is a deep learning project designed to estimate depth maps from 2D images, transforming them into 3D representations. This project utilizes various advanced models, including DenseNet, Deep3DBox, EfficientNet, RegNet, and the MiDaS model, to achieve high accuracy in depth estimation.  
+**3D Monocular Depth estimation** is a deep learning project designed to predict depth maps from 2D images. This project utilizes various advanced models, including DenseNet, Deep3DBox, EfficientNet, RegNet, and the MiDaS model, to achieve high-accuracy in-depth prediction.
 
 ## Table of Contents  
 
