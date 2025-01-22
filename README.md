@@ -1,13 +1,39 @@
-| **Component**                  | **Description**                                           |
-|--------------------------------|-----------------------------------------------------------|
-| **Proposed Scheme**            | A novel framework for continuous token prediction integrating text and audio inputs. |
-| **Key Models**                 | Incorporates a backbone network, CenterNet for image detection, and a generative model. |
-| **Future Research Focus**      | Exploring the effects of STFT window size, dataset scaling, and adaptive spectrum switching. |
-| **Processing Steps**           | Involves spectrogram generation followed by image detection using CenterNet.   |
-| **Key Advantages**             | Provides enhanced flexibility, scalability, and diverse feature representation capabilities.        |
-| **Generative Model**           | Leverages latent features for generating varied audio and text outputs, allowing flexibility beyond fixed class labels. |
-| **Output Feature Maps**        | Processed through specialized generative heads for effective feature extraction.   |
-| **Dimensionality Reduction**   | Reduces feature maps from 16x16 with 2048 channels to 12x128 with 64 channels. |
-| **Attention Mechanism**        | Enhances prioritization of significant features within audio datasets, improving output relevance and quality. |
+# 3DMonocular-Depth-estimation  
 
-This refined version maintains clarity and scientific rigor while compressing the information for better readability.
+## Overview  
+
+**3DMonocular-Depth-estimation** is a deep learning project designed to estimate depth maps from 2D images, transforming them into 3D representations. This project utilizes various advanced models, including DenseNet, Deep3DBox, EfficientNet, RegNet, and the MiDaS model, to achieve high accuracy in depth estimation.  
+
+## Table of Contents  
+
+- [Features](#features)  
+- [Models Used](#models-used)  
+- [Installation](#installation)  
+- [Usage](#usage)  
+- [Results](#results)  
+- [Contributing](#contributing)  
+- [License](#license)  
+
+## Features  
+
+- Depth estimation from single 2D images.  
+- Implementation of multiple state-of-the-art models for comparison.  
+- High-quality depth maps that enhance 3D visualizations.  
+- Support for various input image formats.  
+
+## Models Used  
+
+1. **DenseNet**: A convolutional neural network that connects each layer to every other layer in a feed-forward manner.  
+2. **Deep3DBox**: A model tailored for 3D box localization and depth estimation.  
+3. **EfficientNet**: A scalable convolutional neural network model that balances accuracy and efficiency.  
+4. **RegNet**: A model focusing on regularized networks for optimal performance.  
+5. **MiDaS**: An advanced model specifically designed for monocular depth estimation, known for its impressive results on various datasets.  
+
+## Installation  
+
+To get started with the project, clone the repository and install the required dependencies:  
+
+```bash  
+git clone https://github.com/your_username/3DMonocular-Depth-estimation.git  
+cd 3DMonocular-Depth-estimation  
+pip install -r requirements.txt
